@@ -1,0 +1,135 @@
+.menu-bg{
+	background: #2c70ff;
+}
+
+.menu{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	a{
+	color: #fff;
+	}
+}
+
+.menu-logo a{
+	font-size: 2.25em;
+	font-weight: bold;
+	margin: 0 10px;
+}
+
+.menu-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	a{
+	font-size: 1.25em;
+	display: block;
+	padding: 10px;
+	}
+	& a:hover{
+		color: #122ab2;
+	}
+}
+
+.introducao{
+	font-size: 3em;
+	line-height: 1;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 10px;
+}
+
+.container{
+	
+	display: flex;
+	border-top: 2px solid #2c70ff;
+	border-bottom: 2px solid #2c70ff;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#tabela, tr, td, th{
+	border: 1px solid #2c70ff;
+	border-collapse: separate;
+	border-spacing: 3px;
+	font-size: 16px;
+	color: #000;
+	th, td{
+		padding: 10px;
+	}
+	th{
+		color: #fff;
+		background: #2c70ff;
+	}
+}
+
+.btn-conteiner{
+	
+	display: flex;
+	flex: 1;
+	padding-top: 10px;
+}
+
+.btn{
+	display: block;
+	max-width: 200px;
+	max-height: auto;
+	color: #fff;
+	background: #2c70ff;
+	padding: 10px;
+	border-radius: 5px;
+	text-align: center;
+	&:hover{
+		background: #122ab2;
+	}
+}
+
+label{
+	font-size: 18px;
+	font-weight: 1.4em;
+}
+
+form {
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #2c70ff;
+    border-radius: 1em;
+		div{
+			padding: 5px;
+		}
+}
+
+
+
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+		padding: 10px;
+    border: 2px solid #2c70ff;
+		border-radius: 5px;
+		
+}
+
+.footer{
+	display: flex;
+	
+	background: #2c70ff;
+	height: 215px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.footer p{
+	text-align: center;
+	font-size: 2.25em;
+	color: #122ab2;
+}
